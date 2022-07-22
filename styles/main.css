@@ -6,7 +6,7 @@
     text-size-adjust: auto;
 }
 
-.fish__list {
+.masterFishList {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -20,14 +20,18 @@
 h1 {
     font-size: 5em;
     line-height: 0.7em;
-    } 
+} 
 
-.info {
+.fish_card {
+    padding: 1em;
+    margin: 0.5em;
     text-align: center;
+    text-size-adjust: auto;
     border: 3.5px solid rgb(9, 43, 66);
     width: 300px;
     background-color: #a9cadd;
 }
+
 
 img  {
     float: center;
@@ -45,13 +49,6 @@ img  {
     background-color: #a9cadd;
     }
 
-.species {
-    border: 7.5px solid rgb(105, 105, 192);
-    padding: 1em;
-    margin: 0.5em;
-    text-align: center;
-    text-size-adjust: auto;
-}
 
 .travel__tips {
     border: 1px solid black;
@@ -61,6 +58,7 @@ img  {
     background-color: #a9cadd;
     }
 
+    
 article {
     border: 1px solid #7F0B00;
     background-color: #88b1c9;
